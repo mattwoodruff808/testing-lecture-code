@@ -1,3 +1,8 @@
 module.exports = {
-    // Create functions here
+    sum(a, b){
+        return a + b;
+    },
+    sayHello(){
+        return 'hello';
+    }
 }
